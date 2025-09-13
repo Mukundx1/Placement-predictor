@@ -37,6 +37,8 @@ cd placement-predictor
 3. Run the Jupyter Notebook:
 - jupyter notebook placement_predictor.ipynb
 
+---
+
 ## 📈 How It Works
 
 - Loads the dataset (data.csv).
@@ -45,6 +47,8 @@ cd placement-predictor
 - Evaluates performance on the test set (accuracy = 90%).
 - Saves both the trained model and scaler as .pkl files for inference.
 - Use the saved model + scaler to make predictions on new samples.
+
+---
 
 ## 🔮 Example Prediction
 
