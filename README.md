@@ -37,7 +37,7 @@ cd placement-predictor
 3. Run the Jupyter Notebook:
 - jupyter notebook placement_predictor.ipynb
 
----
+```
 
 ## 📈 How It Works
 
@@ -51,7 +51,7 @@ cd placement-predictor
 ---
 
 ## 🔮 Example Prediction
-
+```bash
 import joblib
 import numpy as np
 
@@ -65,7 +65,7 @@ student_scaled = scaler.transform(student)
 
 prediction = model.predict(student_scaled)
 print("Placed" if prediction[0] == 1 else "Not Placed")
-
+```
 ---
 
 ## 📊 Results & Visualization
